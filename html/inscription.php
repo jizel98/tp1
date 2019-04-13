@@ -16,7 +16,7 @@
             ?>
             <img src="../images/logo.jpg"  width=150" height=150px "alt="logo">
             <br>
-            <a href="connexion.html"> <input type="button"class="btn btn-primary btn-lg" value="connexion" onclick="JSfunction()"
+            <a href="connexion.php"> <input type="button"class="btn btn-primary btn-lg" value="connexion" onclick="JSfunction()"
       <button></button> </a>
       <br>
       <a href="index.html">
