@@ -7,6 +7,12 @@
         <title></title>
     </head>
     <body>
+    <style>
+* {
+   background-color: blue; 
+}
+  </style>
+    <div class="text-center">
     <?php
             
             $link = mysql_connect("localhost", "root", "")
@@ -15,13 +21,14 @@
             mysql_close($link);
             ?>
             <img src="../images/logo.jpg"  width=150" height=150px "alt="logo">
-            <br>
+            <br> </br>
             <a href="connexion.php"> <input type="button"class="btn btn-primary btn-lg" value="connexion" onclick="JSfunction()"
       <button></button> </a>
-      <br>
+      <br></br>
       <a href="index.php">
             <input type="button" class="btn btn-primary btn-lg" value="home" onclick="JSfunction()"
       <button> </button> </a>
+</div>
       <form name="inscription" method="post" action="insertion.php">
           Nom <input type="text" name="nom"/>
           <br>
