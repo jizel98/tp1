@@ -7,6 +7,13 @@
         <title></title>
     </head>
     <body>
+    <?php
+            
+            $link = mysql_connect("localhost", "root", "")
+                or die("Impossible de se connecter : " . mysql_error());
+            echo 'Connexion réussie';
+            mysql_close($link);
+            ?>
             <img src="../images/logo.jpg"  width=150" height=150px "alt="logo">
             <br>
             <a href="connexion.html"> <input type="button"class="btn btn-primary btn-lg" value="connexion" onclick="JSfunction()"
