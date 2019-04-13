@@ -46,12 +46,12 @@
         </select>
         <br>
         intérêts:<br>  <input type="checkbox" value="sport" checked>sport<br>
-        <input type="checkbox" checked autocomplete="off" value="musique" checked>musique <br>
-        <input type="checkbox" checked autocomplete="off" value="voyage" checked>voyage<br>
-        <input type="checkbox" checked autocomplete="off" value="lecture" checked>lecture<br>
-        <input type="checkbox" checked autocomplete="off" value="théâtre" checked>théâtre<br>
-        <input type="checkbox" checked autocomplete="off" value="cinéma" checked>cinéma<br>
-        <input type="checkbox" checked autocomplete="off" value="peinture" checked>peinture<br>
+        <input type="checkbox"  autocomplete="off" value="musique" checked>musique <br>
+        <input type="checkbox" autocomplete="off" value="voyage" checked>voyage<br>
+        <input type="checkbox"  autocomplete="off" value="lecture" checked>lecture<br>
+        <input type="checkbox"  autocomplete="off" value="théâtre" checked>théâtre<br>
+        <input type="checkbox" autocomplete="off" value="cinéma" checked>cinéma<br>
+        <input type="checkbox" autocomplete="off" value="peinture" checked>peinture<br>
         mot de passe<input type="password" name="nom_du_champs"/><br>
         confirmation<input type="password" name="nom_du_champs"/><br>
         <input type="button" class="btn btn-success" value="envoyer" onclick="JSfunction()"
