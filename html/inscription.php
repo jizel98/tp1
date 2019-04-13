@@ -19,7 +19,7 @@
             <a href="connexion.php"> <input type="button"class="btn btn-primary btn-lg" value="connexion" onclick="JSfunction()"
       <button></button> </a>
       <br>
-      <a href="index.html">
+      <a href="index.php">
             <input type="button" class="btn btn-primary btn-lg" value="home" onclick="JSfunction()"
       <button> </button> </a>
       <form name="inscription" method="post" action="insertion.php">
