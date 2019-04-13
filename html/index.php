@@ -16,10 +16,10 @@
             ?>
             <img src="../images/logo.jpg"  width=150" height=150px "alt="logo">
             <br>
-            <a href="inscription.html"> <input type="button" class="btn btn-primary btn-lg" value="inscription" onclick="JSfunction()"
+            <a href="inscription.php"> <input type="button" class="btn btn-primary btn-lg" value="inscription" onclick="JSfunction()"
       <button></button> </a>
       <br>
-          <a href="connexion.html"> <input type="button" class="btn btn-primary btn-lg" value="connexion" onclick="JSfunction()"
+          <a href="connexion.php"> <input type="button" class="btn btn-primary btn-lg" value="connexion" onclick="JSfunction()"
       <button> </button> </a>
       <p>IHEC Carthage est une université publique sous la tutelle du Rectorat de Carthage.</p>  
 <br>

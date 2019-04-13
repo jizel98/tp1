@@ -16,16 +16,16 @@
             ?>
             <img src="../images/logo.jpg"  width=150" height=150px "alt="logo">
             <br>
-            <a href="connexion.html">
+            <a href="connexion.php">
             <input type="button" class="btn btn-primary btn-lg" value="déconnexion" onclick="JSfunction()"
             <button></button> </a>
             <br>
-            <a href="profil.html">
+            <a href="profil.php">
                   <input type="button" class="btn btn-primary btn-lg" value="profil" onclick="JSfunction()"
             <button> </button> </a><br>
             <h3>TO DO</h3>
             <br>
-            <a href="ajoutertodo.html">
+            <a href="ajoutertodo.php">
             <input type="button" class="btn btn-info" value="ajouter to do" onclick="JSfunction()"
             <button></button> </a> 
             <br><br>

@@ -16,11 +16,11 @@
             ?>
             <img src="../images/logo.jpg"  width=150" height=150px "alt="logo">
             <br>
-            <a href="connexion.html">
+            <a href="connexion.php">
             <input type="button" class="btn btn-primary btn-lg" value="déconnexion" onclick="JSfunction()"
             <button></button> </a>
             <br>
-            <a href="home.html">
+            <a href="home.php">
                   <input type="button" class="btn btn-primary btn-lg" value="acceuil" onclick="JSfunction()"
             <button> </button> </a> <br>
             <h1>Gaida Mahjoub Jizel</h1>

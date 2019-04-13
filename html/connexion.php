@@ -16,14 +16,14 @@
             ?>
             <img src="../images/logo.jpg"  width=150" height=150px "alt="logo">
             <br>
-            <a href="inscription.html">
+            <a href="inscription.php">
             <input type="button" class="btn btn-primary btn-lg" value="inscription" onclick="JSfunction()"
             <button></button> </a>
             <br>
-            <a href="index.html">
+            <a href="index.php">
                   <input type="button" class="btn btn-primary btn-lg" value="home" onclick="JSfunction()"
             <button> </button> </a><br>
-            <form name="..." method="..." action="..."> 
+            <form name="connexion" method="post" action="insertion.php"> 
                 e-mail <input type ="email" name="email"> 
          <br>
          mot de passe<input type="password" name="nom_du_champs"/><br>
