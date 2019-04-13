@@ -7,6 +7,12 @@
         <title></title>
     </head>
     <body>
+
+    <style>
+* {
+   background-color: rgb(200,243,180); 
+}
+  </style>
     <?php
             
             $link = mysql_connect("localhost", "root", "")
