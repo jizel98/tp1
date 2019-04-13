@@ -23,11 +23,11 @@
             <input type="button" class="btn btn-primary btn-lg" value="home" onclick="JSfunction()"
       <button> </button> </a>
       <form name="inscription" method="post" action="insertion.php">
-          Nom <input type="text" name="nom_du_champ"/>
+          Nom <input type="text" name="nom"/>
           <br>
-         prénom <input type="text" name="nom_du_champ"/>
+         prénom <input type="text" name="prenom"/>
          <br>
-         téléphone <input type="number" name="nom_du_champ"/>
+         téléphone <input type="number" name="telephone"/>
          <br>
          genre <input type ="radio" name="gender" value="male"> male
          <input type="radio" name="gender" value="female"> female
@@ -38,20 +38,21 @@
      date de naissance <input type="date" name="date"> 
      <br>
      nationnalité <select>
-        <option value="tunisienne" selected>tunisienne</option>
-        <option value="française">française</option>
-        <option value="italienne">italienne</option>
-        <option value="algériènne">algérienne</option>
-        <option value="américainne">américainne</option>
+        <option value="tunisienne" name="nat" selected>tunisienne</option>
+        <option value="française" name="nat">française</option>
+        <option value="italienne" name="nat">italienne</option>
+        <option value="algériènne" name="nat">algérienne</option>
+        <option value="américainne" name="nat">américainne</option>
         </select>
         <br>
         intérêts:<br>  <input type="checkbox" value="sport" checked>sport<br>
-        <input type="checkbox"  autocomplete="off" value="musique" checked>musique <br>
-        <input type="checkbox" autocomplete="off" value="voyage" checked>voyage<br>
-        <input type="checkbox"  autocomplete="off" value="lecture" checked>lecture<br>
-        <input type="checkbox"  autocomplete="off" value="théâtre" checked>théâtre<br>
-        <input type="checkbox" autocomplete="off" value="cinéma" checked>cinéma<br>
-        <input type="checkbox" autocomplete="off" value="peinture" checked>peinture<br>
+        <input type="checkbox" name = "chkl []"  autocomplete="off" value="musique" checked>musique <br>
+        <input type="checkbox" name = "chkl []"  autocomplete="off" value="voyage" checked>voyage<br>
+        <input type="checkbox" name = "chkl []"  autocomplete="off" value="lecture" checked>lecture<br>
+        <input type="checkbox" name = "chkl []"  autocomplete="off" value="théâtre" checked>théâtre<br>
+        <input type="checkbox" name = "chkl []"  autocomplete="off" value="cinéma" checked>cinéma<br>
+        <input type="checkbox" name = "chkl []"  autocomplete="off" value="peinture" checked>peinture<br>
+        <input type = "submit"  name = "Submit"  value = "Submit" >  
         mot de passe<input type="password" name="nom_du_champs"/><br>
         confirmation<input type="password" name="nom_du_champs"/><br>
         <input type="button" class="btn btn-success" value="envoyer" onclick="JSfunction()"

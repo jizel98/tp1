@@ -7,10 +7,11 @@
         <title></title>
     </head>
     <body>
+    <div class="text-center">
 
     <style>
 * {
-   background-color: rgb(200,243,180); 
+   background-color: blue; 
 }
   </style>
     <?php
@@ -20,16 +21,17 @@
             echo 'Connexion réussie';
             mysql_close($link);
             ?>
-            <img src="../images/logo.jpg"  width=150" height=150px "alt="logo">
+            <img src="../images/logo.jpg" class="displayed" width=150" height=150px "alt="logo">
+</br>
             <br>
             <a href="inscription.php"> <input type="button" class="btn btn-primary btn-lg" value="inscription" onclick="JSfunction()"
       <button></button> </a>
-      <br>
+      <br> </br>
           <a href="connexion.php"> <input type="button" class="btn btn-primary btn-lg" value="connexion" onclick="JSfunction()"
       <button> </button> </a>
       <p>IHEC Carthage est une université publique sous la tutelle du Rectorat de Carthage.</p>  
 <br>
-<div class="text-center">
+
 <img src="../images/69-p.jpg" class="img-thumbnail" alt="photo">
 </div>
     </body>
